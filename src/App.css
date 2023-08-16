@@ -1,38 +1,50 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+
+.dialog-link {
+  display: block;
+  margin-bottom: 5px; /* Add some vertical spacing between the links */
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set the color of the links */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dialog-box {
+  background-color: rgba(240, 248, 255, 0.394);
+  margin-left: auto; /* Adjust the spacing to move it to the right */
+  padding: 10px; /* Add padding for better appearance */
+}
+
+
+.background-chips {
+  background-color: rgb(112, 135, 211);
+  min-height: 100vh;
+}
+
+.sardines-background{
+  background-image: url('../public/sardines.jpg');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.background-soda{
+  background-image: url('../public/soda.jpg');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.chip{  
+  background-image:url('../public/chips.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 0vh;
+  min-height: 10vh;
+  
+}
+
+button{
+  margin: 40px; /* Add padding for better appearance */
 }
